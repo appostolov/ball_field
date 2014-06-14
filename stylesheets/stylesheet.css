@@ -13,6 +13,14 @@ body{
 	text-align:center;
 }
 
+p{
+	position:absolute;
+	left:60%;
+	font-style:oblique;
+	font-size:50px;
+	color:#775555;
+}
+
 #can{
 	box-shadow:10px 10px 15px black;
 }
