@@ -15,7 +15,8 @@ body{
 
 p{
 	position:absolute;
-	left:60%;
+	top:100px;
+	left:30%;
 	font-style:oblique;
 	font-size:50px;
 	color:#775555;
