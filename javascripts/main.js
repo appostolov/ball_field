@@ -151,7 +151,7 @@ function initCanvas(){
 		mouseY = event.clientY - c.canvas.offsetTop;
 	});
 	var obj10 = new Object();
-	obj10.color = "#fee";
+	obj10.color = "#00f";
 	obj10.x = mouseX;
 	obj10.y = mouseY;
 	obj10.r = 50;
