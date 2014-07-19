@@ -99,7 +99,7 @@ var life_w = 100;
 
 var back_space = document.getElementById("hidd3");
 
-var time = 60;
+var time = 30;
 var time_count = 0;
 
  var game_loop = setInterval(function(){
@@ -171,13 +171,13 @@ var time_count = 0;
 	document.getElementById("timer").innerHTML = time+"";
 	
 	if(time == 0){
-		time = 60;
+		time = 30;
 		life_w = 100;
 		tar_vell += 1;
 	}
 	
 	if(life_w <= 0){
-		time = 60;
+		time = 30;
 		life_w = 100;
 	}
 	
