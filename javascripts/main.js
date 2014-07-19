@@ -102,6 +102,8 @@ var back_space = document.getElementById("hidd3");
 var time = 30;
 var time_count = 0;
 
+var level = 1;
+
  var game_loop = setInterval(function(){
 	
 	c.drawImage(back_space,0,0);
@@ -173,7 +175,9 @@ var time_count = 0;
 	if(time == 0){
 		time = 30;
 		life_w = 100;
-		tar_vell += 2;
+		tar_vell += 1;
+		level += 1;
+		document.getElementById("level").innerHTML = "Level: "+level;
 	}
 	
 	if(life_w <= 0){
