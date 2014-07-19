@@ -173,7 +173,7 @@ var time_count = 0;
 	if(time == 0){
 		time = 30;
 		life_w = 100;
-		tar_vell += 1;
+		tar_vell += 2;
 	}
 	
 	if(life_w <= 0){
