@@ -15,7 +15,6 @@ body{
 
 p{
 	position:relative;
-	padding-top:50px;
 	font-style:oblique;
 	font-size:50px;
 	color:#993300;
@@ -29,7 +28,7 @@ p{
 
 #can{
 	position:relative;
-	margin:50px auto;
+	margin:10px auto;
 	box-shadow:10px 10px 15px black;
 }
 
@@ -39,7 +38,6 @@ p{
 
 #life_hold{
 	position:relative;
-	top:-40px;
 	width:500px;
 	height:30px;
 	margin:20px auto;
@@ -64,4 +62,9 @@ p{
 	margin:0 auto;
 	font-size:20px;
 	color:#0F7;
+}
+
+#level{
+	font-size:18px;
+	color:black;
 }
