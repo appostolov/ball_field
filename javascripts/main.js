@@ -1,7 +1,7 @@
 var can = document.getElementById("can");
 var c = can.getContext('2d');
 
-var tar_vell = 2;
+var tar_vell = 3;
 
 var obj1 = new Object();
 obj1.color = "#f00";
@@ -136,7 +136,7 @@ var level = 1;
 					if(a==9){
 						img_earth=document.getElementById(earth2);
 						c.drawImage(img_earth,objs[a].x-50,objs[a].y-50);
-						life_w -= 1;
+						life_w -= 5;
 					}
 					var dir_b = Math.atan2(objs[b].y - objs[a].y,objs[b].x - objs[a].x)*180/Math.PI;
 					objs[b].dir = dir_b;
@@ -175,7 +175,7 @@ var level = 1;
 	if(time == 0){
 		time = 30;
 		life_w = 100;
-		tar_vell += 1;
+		tar_vell += 3;
 		level += 1;
 		document.getElementById("level").innerHTML = "Level: "+level;
 	}
