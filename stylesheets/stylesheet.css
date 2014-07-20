@@ -64,6 +64,25 @@ p{
 	color:#0F7;
 }
 
+#home_butt{
+	position:absolute;
+	left:20px;
+	top:20px;
+	width:100px;
+	height:100px;
+	border-radius:100px;
+	background:black;
+	color:white;
+	cursor:pointer;
+	text-decoration:none;
+	line-height:90px;
+}
+
+#home_butt:hover{
+	background:gold;
+	color:blue;
+}
+
 #level{
 	font-size:18px;
 	color:black;
