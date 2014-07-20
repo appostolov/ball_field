@@ -196,9 +196,9 @@ function initCanvas(){
 	obj10.color = "#00f";
 	obj10.x = mouseX;
 	obj10.y = mouseY;
-	obj10.r = 50;
+	obj10.r = 60;
 	obj10.dir = -45;
-	obj10.speed = 50/obj9.r;
+	obj10.speed = 0;
 	
 	objs[9]=obj10;
 	
